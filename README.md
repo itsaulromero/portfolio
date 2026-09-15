@@ -30,7 +30,28 @@ pnpm dev
 
 ## Validaciones
 
+Ejecutar todas las validaciones del proyecto:
+
 ```powershell
+pnpm validate
+```
+
+También pueden ejecutarse individualmente:
+
+```powershell
+pnpm lint
+pnpm format:check
+pnpm stylelint
 pnpm typecheck
 pnpm build
 ```
+
+Para corregir automáticamente problemas compatibles:
+
+```powershell
+pnpm lint:fix
+pnpm format
+pnpm stylelint:fix
+```
+
+Los hooks de Git validan automáticamente los archivos preparados y el mensaje de commit mediante Husky, lint-staged y Commitlint.
