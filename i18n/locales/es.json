@@ -1,0 +1,14 @@
+{
+  "seo": {
+    "home": {
+      "title": "Saúl Romero | Portafolio",
+      "description": "Portafolio profesional de Saúl Romero, desarrollador de software Full-Stack Web y Cloud."
+    }
+  },
+  "home": {
+    "status": {
+      "title": "Portafolio en construcción",
+      "description": "La configuración inicial del proyecto está lista."
+    }
+  }
+}
