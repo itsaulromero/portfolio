@@ -10,6 +10,7 @@ Portfolio profesional de Saúl Romero Cruz, desarrollado con Nuxt, Vue y TypeScr
 - Vue 3
 - TypeScript
 - pnpm
+- Tailwind CSS 3
 
 ## Requisitos
 
