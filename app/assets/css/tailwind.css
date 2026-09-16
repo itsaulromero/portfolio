@@ -1,3 +1,36 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  :root {
+    color-scheme: dark;
+
+    --color-background: 9 9 10;
+    --color-background-alt: 14 15 16;
+    --color-surface: 19 20 23;
+    --color-field: 20 26 39;
+    --color-border: 30 41 59;
+    --color-heading: 255 255 255;
+    --color-body: 203 213 225;
+    --color-muted: 161 161 170;
+    --color-subtle: 100 116 139;
+    --color-primary: 59 130 246;
+    --color-primary-light: 96 165 250;
+    --color-action: 37 99 235;
+    --color-info: 34 211 238;
+    --color-success: 52 211 153;
+    --color-warning: 251 191 36;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    min-height: 100vh;
+    background-color: rgb(var(--color-background));
+    color: rgb(var(--color-body));
+    font-family: 'Roboto Variable', Roboto, sans-serif;
+  }
+}
