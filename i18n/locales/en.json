@@ -10,5 +10,9 @@
       "title": "Portfolio under construction",
       "description": "The initial project configuration is ready."
     }
+  },
+  "theme": {
+    "switchToLight": "Switch to light mode",
+    "switchToDark": "Switch to dark mode"
   }
 }
