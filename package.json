@@ -22,6 +22,7 @@
     "validate": "pnpm lint && pnpm format:check && pnpm stylelint && pnpm typecheck && pnpm build"
   },
   "dependencies": {
+    "@fontsource-variable/roboto": "5.3.0",
     "nuxt": "4.5.2",
     "vue": "3.5.42",
     "vue-router": "5.3.1"
