@@ -13,6 +13,7 @@ Portfolio profesional de Saúl Romero Cruz, desarrollado con Nuxt, Vue y TypeScr
 - Tailwind CSS 3
 - Nuxt i18n
 - Roboto Variable
+- @nuxtjs/color-mode
 
 ## Requisitos
 
@@ -30,6 +31,10 @@ pnpm install
 ```powershell
 pnpm dev
 ```
+
+## Temas
+
+El portfolio admite modos claro y oscuro, detecta inicialmente la preferencia del sistema y conserva la selección del usuario.
 
 ## Validaciones
 

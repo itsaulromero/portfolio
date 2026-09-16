@@ -5,10 +5,23 @@ export default defineNuxtConfig({
 
   css: ['@fontsource-variable/roboto/wght.css'],
 
-  modules: ['@nuxt/eslint', '@nuxtjs/tailwindcss', '@nuxtjs/i18n'],
+  modules: [
+    '@nuxt/eslint',
+    '@nuxtjs/tailwindcss',
+    '@nuxtjs/i18n',
+    '@nuxtjs/color-mode',
+  ],
 
   tailwindcss: {
     cssPath: './app/assets/css/tailwind.css',
+  },
+
+  colorMode: {
+    preference: 'system',
+    fallback: 'dark',
+    classSuffix: '',
+    storage: 'localStorage',
+    storageKey: 'portfolio-color-mode',
   },
 
   i18n: {
