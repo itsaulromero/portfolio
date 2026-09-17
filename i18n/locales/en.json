@@ -11,8 +11,36 @@
       "description": "The initial project configuration is ready."
     }
   },
+  "navigation": {
+    "mainLabel": "Main navigation",
+    "home": "Go to home",
+    "about": "About me",
+    "technologies": "Technologies",
+    "projects": "Projects",
+    "contact": "Contact"
+  },
+  "footer": {
+    "description": "Software developer focused on building modern, accessible and maintainable web applications.",
+    "connect": "Connect",
+    "social": {
+      "github": "Visit GitHub profile",
+      "linkedin": "Visit LinkedIn profile",
+      "x": "Visit X profile"
+    },
+    "copyright": "© {year} Saúl Romero Cruz. All rights reserved.",
+    "credit": "Designed and developed by Saúl Romero.",
+    "backToTop": "Back to top"
+  },
+  "language": {
+    "selectorLabel": "Select language",
+    "english": "Switch to English",
+    "spanish": "Switch to Spanish"
+  },
   "theme": {
     "switchToLight": "Switch to light mode",
     "switchToDark": "Switch to dark mode"
+  },
+  "accessibility": {
+    "skipToContent": "Skip to main content"
   }
 }

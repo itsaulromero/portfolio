@@ -8,10 +8,7 @@ useSeoMeta({
 </script>
 
 <template>
-  <main class="grid min-h-screen place-items-center bg-background px-6">
-    <div class="fixed right-6 top-6">
-      <ThemeToggle />
-    </div>
+  <div class="grid min-h-screen place-items-center bg-background px-6">
     <section
       class="w-full max-w-xl rounded-2xl border border-border bg-surface p-8"
     >
@@ -23,5 +20,5 @@ useSeoMeta({
         {{ t('home.status.description') }}
       </p>
     </section>
-  </main>
+  </div>
 </template>
