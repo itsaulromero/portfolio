@@ -1,6 +1,12 @@
 <script setup lang="ts">
 const { locale, t } = useI18n()
 const switchLocalePath = useSwitchLocalePath()
+
+type LocaleCode = 'en' | 'es'
+
+function getLocalePath(localeCode: LocaleCode) {
+  return switchLocalePath(localeCode).split('#')[0]
+}
 </script>
 
 <template>
@@ -16,7 +22,7 @@ const switchLocalePath = useSwitchLocalePath()
     />
 
     <NuxtLink
-      :to="switchLocalePath('en')"
+      :to="getLocalePath('en')"
       hreflang="en"
       class="language-option"
       :class="{ 'language-option-active': locale === 'en' }"
@@ -27,7 +33,7 @@ const switchLocalePath = useSwitchLocalePath()
     </NuxtLink>
 
     <NuxtLink
-      :to="switchLocalePath('es')"
+      :to="getLocalePath('es')"
       hreflang="es"
       class="language-option"
       :class="{ 'language-option-active': locale === 'es' }"

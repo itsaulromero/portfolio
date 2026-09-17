@@ -23,7 +23,7 @@ const navigationItems = computed(() => [
 </script>
 
 <template>
-  <header class="pointer-events-none sticky top-0 z-50 bg-transparent">
+  <header class="pointer-events-none fixed inset-x-0 top-0 z-50 bg-transparent">
     <div
       class="mx-auto flex max-w-[1440px] items-center gap-2 px-3 py-3 sm:px-6 min-[900px]:grid min-[900px]:grid-cols-[1fr_auto_1fr] min-[900px]:gap-6 min-[900px]:py-4"
     >
