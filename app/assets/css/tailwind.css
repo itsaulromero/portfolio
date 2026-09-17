@@ -54,3 +54,81 @@
     font-family: 'Roboto Variable', Roboto, sans-serif;
   }
 }
+
+@layer components {
+  .liquid-glass {
+    --glass-border: #bbb;
+    --glass-text: #fff;
+    --glass-text-muted: rgb(255 255 255 / 72%);
+    --glass-accent: #60a5fa;
+    --glass-glow: rgb(96 165 250 / 65%);
+    --glass-highlight: rgb(255 255 255 / 75%);
+    --glass-thumb-background:
+      linear-gradient(145deg, rgb(255 255 255 / 15%), rgb(255 255 255 / 4%)),
+      rgb(255 255 255 / 4%);
+    --glass-thumb-shadow:
+      inset 0 1px 0 rgb(255 255 255 / 25%), 0 3px 12px rgb(0 0 0 / 22%);
+
+    position: relative;
+    isolation: isolate;
+    overflow: hidden;
+    border: 1px solid var(--glass-border);
+    background:
+      linear-gradient(
+        135deg,
+        rgb(255 255 255 / 12%),
+        rgb(255 255 255 / 4%) 48%,
+        rgb(255 255 255 / 7%)
+      ),
+      rgb(19 20 23 / 68%);
+    box-shadow:
+      inset 0 1px 0 rgb(255 255 255 / 24%),
+      inset 0 -1px 0 rgb(255 255 255 / 6%),
+      0 8px 24px rgb(0 0 0 / 18%);
+    color: var(--glass-text);
+    backdrop-filter: blur(18px) saturate(160%);
+  }
+
+  .light .liquid-glass {
+    --glass-border: rgb(15 23 42 / 58%);
+    --glass-text: #0f172a;
+    --glass-text-muted: rgb(15 23 42 / 68%);
+    --glass-accent: #2563eb;
+    --glass-glow: rgb(37 99 235 / 38%);
+    --glass-highlight: rgb(255 255 255 / 100%);
+    --glass-thumb-background:
+      linear-gradient(145deg, rgb(255 255 255 / 100%), rgb(241 245 249 / 76%)),
+      rgb(255 255 255 / 82%);
+    --glass-thumb-shadow: inset 0 1px 0 #fff, 0 3px 12px rgb(15 23 42 / 16%);
+
+    background:
+      linear-gradient(
+        135deg,
+        rgb(255 255 255 / 96%),
+        rgb(255 255 255 / 68%) 48%,
+        rgb(241 245 249 / 82%)
+      ),
+      rgb(255 255 255 / 76%);
+    box-shadow:
+      inset 0 1px 0 #fff,
+      inset 0 -1px 0 rgb(15 23 42 / 8%),
+      0 8px 24px rgb(15 23 42 / 14%);
+  }
+
+  .liquid-glass::before {
+    position: absolute;
+    z-index: 0;
+    top: 0;
+    right: 14%;
+    left: 14%;
+    height: 1px;
+    background: linear-gradient(
+      90deg,
+      transparent,
+      var(--glass-highlight),
+      transparent
+    );
+    content: '';
+    pointer-events: none;
+  }
+}

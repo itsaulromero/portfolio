@@ -11,8 +11,36 @@
       "description": "La configuración inicial del proyecto está lista."
     }
   },
+  "navigation": {
+    "mainLabel": "Navegación principal",
+    "home": "Ir al inicio",
+    "about": "Sobre mí",
+    "technologies": "Tecnologías",
+    "projects": "Proyectos",
+    "contact": "Contacto"
+  },
+  "footer": {
+    "description": "Desarrollador de software enfocado en crear aplicaciones web modernas, accesibles y mantenibles.",
+    "connect": "Conecta",
+    "social": {
+      "github": "Visitar el perfil de GitHub",
+      "linkedin": "Visitar el perfil de LinkedIn",
+      "x": "Visitar el perfil de X"
+    },
+    "copyright": "© {year} Saúl Romero Cruz. Todos los derechos reservados.",
+    "credit": "Diseñado y desarrollado por Saúl Romero.",
+    "backToTop": "Volver al inicio"
+  },
+  "language": {
+    "selectorLabel": "Seleccionar idioma",
+    "english": "Cambiar a inglés",
+    "spanish": "Cambiar a español"
+  },
   "theme": {
     "switchToLight": "Cambiar al modo claro",
     "switchToDark": "Cambiar al modo oscuro"
+  },
+  "accessibility": {
+    "skipToContent": "Saltar al contenido principal"
   }
 }
