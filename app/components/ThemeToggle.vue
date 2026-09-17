@@ -15,48 +15,50 @@ function toggleColorMode() {
 
 <template>
   <span class="theme-toggle-shell">
-    <button
-      v-if="!colorMode.unknown"
-      type="button"
-      class="liquid-glass theme-toggle-button"
-      :class="{ 'theme-toggle-button-light': !isDark }"
-      :aria-label="toggleLabel"
-      :title="toggleLabel"
-      @click="toggleColorMode"
-    >
-      <svg
-        aria-hidden="true"
-        class="theme-icon"
-        :class="isDark ? 'theme-icon-visible' : 'theme-icon-moon-hidden'"
-        fill="none"
-        viewBox="0 0 24 24"
-        stroke="currentColor"
-        stroke-width="2"
+    <ClientOnly>
+      <button
+        v-if="!colorMode.unknown"
+        type="button"
+        class="liquid-glass theme-toggle-button"
+        :class="{ 'theme-toggle-button-light': !isDark }"
+        :aria-label="toggleLabel"
+        :title="toggleLabel"
+        @click="toggleColorMode"
       >
-        <path
-          stroke-linecap="round"
-          stroke-linejoin="round"
-          d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79Z"
-        />
-      </svg>
+        <svg
+          aria-hidden="true"
+          class="theme-icon"
+          :class="isDark ? 'theme-icon-visible' : 'theme-icon-moon-hidden'"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke="currentColor"
+          stroke-width="2"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79Z"
+          />
+        </svg>
 
-      <svg
-        aria-hidden="true"
-        class="theme-icon"
-        :class="isDark ? 'theme-icon-sun-hidden' : 'theme-icon-visible'"
-        fill="none"
-        viewBox="0 0 24 24"
-        stroke="currentColor"
-        stroke-width="2"
-      >
-        <circle cx="12" cy="12" r="4" />
+        <svg
+          aria-hidden="true"
+          class="theme-icon"
+          :class="isDark ? 'theme-icon-sun-hidden' : 'theme-icon-visible'"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke="currentColor"
+          stroke-width="2"
+        >
+          <circle cx="12" cy="12" r="4" />
 
-        <path
-          stroke-linecap="round"
-          d="M12 2v2M12 20v2M4.93 4.93l1.42 1.42M17.65 17.65l1.42 1.42M2 12h2M20 12h2M4.93 19.07l1.42-1.42M17.65 6.35l1.42-1.42"
-        />
-      </svg>
-    </button>
+          <path
+            stroke-linecap="round"
+            d="M12 2v2M12 20v2M4.93 4.93l1.42 1.42M17.65 17.65l1.42 1.42M2 12h2M20 12h2M4.93 19.07l1.42-1.42M17.65 6.35l1.42-1.42"
+          />
+        </svg>
+      </button>
+    </ClientOnly>
   </span>
 </template>
 

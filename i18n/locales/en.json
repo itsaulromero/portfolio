@@ -6,9 +6,41 @@
     }
   },
   "home": {
-    "status": {
-      "title": "Portfolio under construction",
-      "description": "The initial project configuration is ready."
+    "hero": {
+      "eyebrow": "Hi, I'm Saúl Romero.",
+      "title": "Software Developer",
+      "titleHighlight": "Full-Stack Web & Cloud",
+      "description": "I build modern, accessible and maintainable web applications, from high-performance interfaces to API integrations and cloud services.",
+      "actions": {
+        "projects": "View projects",
+        "resume": "Download résumé"
+      },
+      "qualities": {
+        "accessibility": "Accessibility",
+        "performance": "Performance",
+        "maintainability": "Maintainability"
+      },
+      "terminal": {
+        "ariaLabel": "Interactive professional profile terminal",
+        "windowTitle": "saul{'@'}portfolio:~",
+        "initCommand": "portfolio init --profile developer",
+        "whoamiCommand": "whoami",
+        "name": "Saúl Romero",
+        "role": "Software developer",
+        "focusCommand": "cat ./system/focus.json",
+        "focus": {
+          "frontend": "Frontend",
+          "backend": "Backend",
+          "apis": "APIs",
+          "cloud": "Cloud"
+        },
+        "availabilityCommand": "healthcheck --availability",
+        "availability": "Available for opportunities and technical projects",
+        "apiCommand": "curl -s https://api.github.com/users/itsaulromero",
+        "hint": "Press Enter to explore my stack",
+        "exploreCommand": "stack --list",
+        "collapseHint": "Press Enter to hide my stack"
+      }
     }
   },
   "navigation": {
