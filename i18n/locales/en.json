@@ -192,7 +192,19 @@
       }
     }
   },
-
+  "errorPage": {
+    "eyebrow": "Navigation error",
+    "notFound": {
+      "title": "Page not found",
+      "description": "The page you're looking for doesn't exist, was moved or is no longer available."
+    },
+    "general": {
+      "title": "Something went wrong",
+      "description": "An unexpected error occurred. You can return home and try again."
+    },
+    "action": "Return home",
+    "support": "If the problem continues, you can reach me through the contact section."
+  },
   "navigation": {
     "mainLabel": "Main navigation",
     "home": "Go to home",
