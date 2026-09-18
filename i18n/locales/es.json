@@ -92,6 +92,33 @@
         "backend": "Backend y bases de datos",
         "tools": "Herramientas de desarrollo"
       }
+    },
+    "projects": {
+      "eyebrow": "Portafolio",
+      "title": "Proyectos destacados",
+      "description": "Proyectos en los que he aplicado desarrollo, diseño y trabajo en equipo.",
+      "featured": "Destacado",
+      "technologiesLabel": "Tecnologías utilizadas",
+      "actions": {
+        "visitSystem": "Visitar sistema",
+        "viewRepository": "Ver repositorio"
+      },
+      "items": {
+        "simCle": {
+          "type": "Proyecto institucional",
+          "meta": "Jun–dic 2025 · Liderazgo y desarrollo full-stack",
+          "description": "Sistema institucional para la Coordinación de Lenguas Extranjeras del Instituto Tecnológico de Morelia. Participé como líder de un equipo de cuatro personas y desarrollador full-stack.",
+          "imageAlt": "Vista previa del Sistema Integral Modular de la Coordinación de Lenguas Extranjeras",
+          "externalLabel": "Visitar el sistema SIM de la CLE en una nueva pestaña"
+        },
+        "portfolio": {
+          "type": "Proyecto personal",
+          "meta": "En desarrollo · 2026",
+          "description": "Portafolio bilingüe con integración de la API pública de GitHub, temas claro y oscuro y una experiencia responsive y accesible.",
+          "imageAlt": "Vista previa del portafolio personal de Saúl Romero",
+          "externalLabel": "Abrir el repositorio del portafolio personal en una nueva pestaña"
+        }
+      }
     }
   },
   "navigation": {
