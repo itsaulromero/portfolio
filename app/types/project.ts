@@ -4,6 +4,14 @@ export interface ProjectExternalLink {
   accessibleLabelKey: string
 }
 
+export interface ProjectDetail {
+  overviewKey: string
+  challengeKey: string
+  solutionKey: string
+  roleKey: string
+  highlightsKeys: readonly string[]
+}
+
 export interface Project {
   slug: string
   title: string
@@ -15,4 +23,5 @@ export interface Project {
   technologies: readonly string[]
   featured: boolean
   externalLink: ProjectExternalLink
+  detail: ProjectDetail
 }
