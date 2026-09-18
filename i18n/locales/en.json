@@ -154,6 +154,42 @@
           }
         }
       }
+    },
+    "contact": {
+      "title": "Contact",
+      "description": "Have an opportunity, collaboration or project in mind? Let's talk.",
+      "eyebrow": "Let's talk",
+      "heading": "Let's build something useful.",
+      "body": "I'm open to professional opportunities, collaborations and web development projects. If my profile fits what you're looking for, feel free to send me a message.",
+      "availability": "Available for opportunities",
+      "location": "Morelia, Michoacán, Mexico",
+      "note": "This section is available in Spanish and English. I'll reply as soon as possible.",
+      "form": {
+        "ariaLabel": "Contact form",
+        "required": "Required",
+        "name": {
+          "label": "Name",
+          "placeholder": "Your name"
+        },
+        "email": {
+          "label": "Email address",
+          "placeholder": "you{'@'}email.com"
+        },
+        "message": {
+          "label": "Message",
+          "placeholder": "Tell me briefly about the opportunity or project."
+        },
+        "submit": "Send message",
+        "submitting": "Sending...",
+        "success": "Your message was sent successfully. I'll reply as soon as possible.",
+        "error": "The message could not be sent. Please try again.",
+        "fallback": "You can also email me at",
+        "errors": {
+          "name": "Enter a name containing at least 2 characters.",
+          "email": "Enter a valid email address.",
+          "message": "The message must contain at least 20 characters."
+        }
+      }
     }
   },
 

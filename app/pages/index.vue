@@ -13,5 +13,6 @@ useSeoMeta({
     <HomeAboutSection />
     <HomeTechnologiesSection />
     <HomeProjectsSection />
+    <HomeContactSection />
   </div>
 </template>

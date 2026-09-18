@@ -5,6 +5,12 @@ export default defineNuxtConfig({
 
   css: ['@fontsource-variable/roboto/wght.css'],
 
+  runtimeConfig: {
+    public: {
+      formspreeEndpoint: '',
+    },
+  },
+
   modules: [
     '@nuxt/eslint',
     '@nuxtjs/tailwindcss',
