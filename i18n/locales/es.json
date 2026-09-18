@@ -192,6 +192,19 @@
       }
     }
   },
+  "errorPage": {
+    "eyebrow": "Error de navegación",
+    "notFound": {
+      "title": "Página no encontrada",
+      "description": "La página que buscas no existe, cambió de dirección o ya no está disponible."
+    },
+    "general": {
+      "title": "Algo salió mal",
+      "description": "Ocurrió un error inesperado. Puedes regresar al inicio e intentarlo nuevamente."
+    },
+    "action": "Volver al inicio",
+    "support": "Si el problema continúa, puedes comunicarte desde la sección de contacto."
+  },
   "navigation": {
     "mainLabel": "Navegación principal",
     "home": "Ir al inicio",
