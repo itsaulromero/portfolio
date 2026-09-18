@@ -99,9 +99,22 @@
       "description": "Projects where I have applied development, design, and teamwork.",
       "featured": "Featured",
       "technologiesLabel": "Technologies used",
+      "detailPage": {
+        "back": "Back to projects",
+        "overview": "Overview",
+        "challenge": "The challenge",
+        "solution": "The solution",
+        "role": "My contribution",
+        "highlights": "Highlights",
+        "technologies": "Technologies used",
+        "notFound": "Project not found",
+        "seoTitle": "{project} | Saúl Romero"
+      },
       "actions": {
         "visitSystem": "Visit system",
-        "viewRepository": "View repository"
+        "viewRepository": "View repository",
+        "viewDetail": "View details",
+        "viewDetailLabel": "View details for {project}"
       },
       "items": {
         "simCle": {
@@ -109,14 +122,36 @@
           "meta": "Jun–Dec 2025 · Leadership and full-stack development",
           "description": "Institutional system for the Foreign Languages Coordination at Instituto Tecnológico de Morelia. I participated as the leader of a four-person team and as a full-stack developer.",
           "imageAlt": "Preview of the Foreign Languages Coordination modular system",
-          "externalLabel": "Visit the SIM de la CLE system in a new tab"
+          "externalLabel": "Visit the SIM de la CLE system in a new tab",
+          "detail": {
+            "overview": "SIM de la CLE is an institutional system developed for the Foreign Languages Coordination Office at Instituto Tecnológico de Morelia.",
+            "challenge": "The project required organizing different coordination processes within a maintainable platform designed to evolve through independent modules.",
+            "solution": "The team built a full-stack web application with Laravel 11, Livewire 3, Tailwind CSS 4 and PostgreSQL, prioritizing a clear interface and a scalable technical foundation.",
+            "role": "I participated as the leader of a four-person team and a full-stack developer, coordinating the work and contributing to the interface, application logic and data persistence.",
+            "highlights": {
+              "leadership": "Leadership and coordination of a four-person team.",
+              "fullStack": "Full-stack development with Laravel, Livewire and PostgreSQL.",
+              "teamwork": "Work organization and collaboration throughout the development cycle."
+            }
+          }
         },
         "portfolio": {
           "type": "Personal project",
           "meta": "In development · 2026",
           "description": "Bilingual portfolio featuring public GitHub API integration, light and dark themes, and a responsive, accessible experience.",
           "imageAlt": "Preview of Saúl Romero's personal portfolio",
-          "externalLabel": "Open the personal portfolio repository in a new tab"
+          "externalLabel": "Open the personal portfolio repository in a new tab",
+          "detail": {
+            "overview": "This portfolio presents my professional profile, experience, technologies and projects through a bilingual, accessible and responsive experience.",
+            "challenge": "The goal was to build a professional presence that clearly communicated my technical profile and could be maintained and expanded as my experience evolved.",
+            "solution": "I developed an application with Nuxt, Vue, TypeScript and Tailwind CSS, incorporating internationalization, light and dark modes and integration with the public GitHub API.",
+            "role": "I designed and developed the complete experience, from the component architecture and visual system to accessibility, bilingual content and data integration.",
+            "highlights": {
+              "i18n": "Content and navigation available in Spanish and English.",
+              "github": "Integration with the public GitHub API, including loading, error and success states.",
+              "accessibility": "Responsive design, keyboard navigation and support for reduced-motion preferences."
+            }
+          }
         }
       }
     }

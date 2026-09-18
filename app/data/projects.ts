@@ -16,6 +16,17 @@ export const projects: readonly Project[] = [
       labelKey: 'home.projects.actions.visitSystem',
       accessibleLabelKey: 'home.projects.items.simCle.externalLabel',
     },
+    detail: {
+      overviewKey: 'home.projects.items.simCle.detail.overview',
+      challengeKey: 'home.projects.items.simCle.detail.challenge',
+      solutionKey: 'home.projects.items.simCle.detail.solution',
+      roleKey: 'home.projects.items.simCle.detail.role',
+      highlightsKeys: [
+        'home.projects.items.simCle.detail.highlights.leadership',
+        'home.projects.items.simCle.detail.highlights.fullStack',
+        'home.projects.items.simCle.detail.highlights.teamwork',
+      ],
+    },
   },
   {
     slug: 'portfolio',
@@ -31,6 +42,17 @@ export const projects: readonly Project[] = [
       href: 'https://github.com/itsaulromero/portfolio',
       labelKey: 'home.projects.actions.viewRepository',
       accessibleLabelKey: 'home.projects.items.portfolio.externalLabel',
+    },
+    detail: {
+      overviewKey: 'home.projects.items.portfolio.detail.overview',
+      challengeKey: 'home.projects.items.portfolio.detail.challenge',
+      solutionKey: 'home.projects.items.portfolio.detail.solution',
+      roleKey: 'home.projects.items.portfolio.detail.role',
+      highlightsKeys: [
+        'home.projects.items.portfolio.detail.highlights.i18n',
+        'home.projects.items.portfolio.detail.highlights.github',
+        'home.projects.items.portfolio.detail.highlights.accessibility',
+      ],
     },
   },
 ]

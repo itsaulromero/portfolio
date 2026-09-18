@@ -99,9 +99,22 @@
       "description": "Proyectos en los que he aplicado desarrollo, diseño y trabajo en equipo.",
       "featured": "Destacado",
       "technologiesLabel": "Tecnologías utilizadas",
+      "detailPage": {
+        "back": "Volver a proyectos",
+        "overview": "Descripción general",
+        "challenge": "El reto",
+        "solution": "La solución",
+        "role": "Mi participación",
+        "highlights": "Aspectos destacados",
+        "technologies": "Tecnologías utilizadas",
+        "notFound": "Proyecto no encontrado",
+        "seoTitle": "{project} | Saúl Romero"
+      },
       "actions": {
         "visitSystem": "Visitar sistema",
-        "viewRepository": "Ver repositorio"
+        "viewRepository": "Ver repositorio",
+        "viewDetail": "Ver detalle",
+        "viewDetailLabel": "Ver detalles de {project}"
       },
       "items": {
         "simCle": {
@@ -109,14 +122,36 @@
           "meta": "Jun–dic 2025 · Liderazgo y desarrollo full-stack",
           "description": "Sistema institucional para la Coordinación de Lenguas Extranjeras del Instituto Tecnológico de Morelia. Participé como líder de un equipo de cuatro personas y desarrollador full-stack.",
           "imageAlt": "Vista previa del Sistema Integral Modular de la Coordinación de Lenguas Extranjeras",
-          "externalLabel": "Visitar el sistema SIM de la CLE en una nueva pestaña"
+          "externalLabel": "Visitar el sistema SIM de la CLE en una nueva pestaña",
+          "detail": {
+            "overview": "SIM de la CLE es un sistema institucional desarrollado para la Coordinación de Lenguas Extranjeras del Instituto Tecnológico de Morelia.",
+            "challenge": "El proyecto requería organizar distintos procesos de la coordinación dentro de una plataforma mantenible y preparada para evolucionar mediante módulos.",
+            "solution": "El equipo construyó una aplicación web full-stack con Laravel 11, Livewire 3, Tailwind CSS 4 y PostgreSQL, priorizando una interfaz clara y una base técnica escalable.",
+            "role": "Participé como líder de un equipo de cuatro personas y desarrollador full-stack, coordinando el trabajo y colaborando en la interfaz, la lógica de la aplicación y la persistencia de datos.",
+            "highlights": {
+              "leadership": "Liderazgo y coordinación de un equipo de cuatro integrantes.",
+              "fullStack": "Desarrollo full-stack con Laravel, Livewire y PostgreSQL.",
+              "teamwork": "Organización del trabajo y colaboración durante el ciclo de desarrollo."
+            }
+          }
         },
         "portfolio": {
           "type": "Proyecto personal",
           "meta": "En desarrollo · 2026",
           "description": "Portafolio bilingüe con integración de la API pública de GitHub, temas claro y oscuro y una experiencia responsive y accesible.",
           "imageAlt": "Vista previa del portafolio personal de Saúl Romero",
-          "externalLabel": "Abrir el repositorio del portafolio personal en una nueva pestaña"
+          "externalLabel": "Abrir el repositorio del portafolio personal en una nueva pestaña",
+          "detail": {
+            "overview": "Este portafolio presenta mi perfil profesional, experiencia, tecnologías y proyectos mediante una experiencia bilingüe, accesible y responsive.",
+            "challenge": "El objetivo fue construir una presencia profesional que comunicara claramente mi perfil técnico y que pudiera mantenerse y ampliarse conforme evolucionara mi experiencia.",
+            "solution": "Desarrollé una aplicación con Nuxt, Vue, TypeScript y Tailwind CSS, incorporando internacionalización, modos claro y oscuro e integración con la API pública de GitHub.",
+            "role": "Diseñé y desarrollé toda la experiencia, desde la arquitectura de componentes y el sistema visual hasta la accesibilidad, el contenido bilingüe y la integración de datos.",
+            "highlights": {
+              "i18n": "Contenido y navegación disponibles en español e inglés.",
+              "github": "Integración con la API pública de GitHub con estados de carga, error y éxito.",
+              "accessibility": "Diseño responsive, navegación mediante teclado y respeto por las preferencias de movimiento."
+            }
+          }
         }
       }
     }

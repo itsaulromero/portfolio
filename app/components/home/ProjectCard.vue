@@ -6,6 +6,7 @@ defineProps<{
 }>()
 
 const { t } = useI18n()
+const localePath = useLocalePath()
 </script>
 
 <template>
@@ -59,6 +60,23 @@ const { t } = useI18n()
       </ul>
 
       <footer class="project-footer">
+        <NuxtLink
+          :to="
+            localePath({
+              name: 'projects-slug',
+              params: { slug: project.slug },
+            })
+          "
+          class="project-link project-detail-link"
+          :aria-label="
+            t('home.projects.actions.viewDetailLabel', {
+              project: project.title,
+            })
+          "
+        >
+          {{ t('home.projects.actions.viewDetail') }}
+        </NuxtLink>
+
         <a
           :href="project.externalLink.href"
           target="_blank"
@@ -210,7 +228,8 @@ const { t } = useI18n()
 
 .project-footer {
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-between;
+  gap: 0.75rem;
   border-top: 1px solid rgb(var(--color-border));
   margin-top: auto;
   padding-top: 1.25rem;
@@ -232,9 +251,20 @@ const { t } = useI18n()
     color 180ms ease;
 }
 
+.project-detail-link {
+  color: #fff;
+  background: rgb(var(--color-primary));
+  box-shadow: 0 0.75rem 1.75rem rgb(var(--color-primary) / 18%);
+}
+
 .project-link:hover {
   background: rgb(var(--color-primary) / 10%);
   color: rgb(var(--color-primary-light));
+}
+
+.project-detail-link:hover {
+  color: #fff;
+  background: rgb(var(--color-primary-light));
 }
 
 .project-link:focus-visible {
@@ -262,6 +292,14 @@ const { t } = useI18n()
 
   .project-title {
     font-size: 1.35rem;
+  }
+
+  .project-footer {
+    flex-direction: column;
+  }
+
+  .project-link {
+    width: 100%;
   }
 }
 
