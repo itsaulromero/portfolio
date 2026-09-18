@@ -141,7 +141,8 @@ const qualities = computed(() => [
 .hero-glow {
   position: absolute;
   border-radius: 50%;
-  filter: blur(120px);
+  transform: scale(1.7);
+  transform-origin: center;
   pointer-events: none;
 }
 
@@ -150,15 +151,27 @@ const qualities = computed(() => [
   right: 7%;
   width: 25rem;
   height: 25rem;
-  background: rgb(59 130 246 / 14%);
+  background: radial-gradient(
+    circle at center,
+    rgb(59 130 246 / 14%) 0%,
+    rgb(59 130 246 / 9%) 30%,
+    rgb(59 130 246 / 3%) 52%,
+    transparent 72%
+  );
 }
 
 .hero-glow-secondary {
-  bottom: 5%;
-  left: 8%;
+  bottom: -9rem;
+  left: -9rem;
   width: 18rem;
   height: 18rem;
-  background: rgb(34 211 238 / 7%);
+  background: radial-gradient(
+    circle at center,
+    rgb(34 211 238 / 9%) 0%,
+    rgb(34 211 238 / 5%) 36%,
+    rgb(34 211 238 / 2%) 56%,
+    transparent 74%
+  );
 }
 
 .hero-eyebrow {
@@ -346,8 +359,8 @@ const qualities = computed(() => [
   }
 
   .hero-glow-secondary {
-    bottom: 12%;
-    left: -10rem;
+    bottom: -9rem;
+    left: -9rem;
   }
 }
 
