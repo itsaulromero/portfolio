@@ -41,6 +41,48 @@
         "exploreCommand": "stack --list",
         "collapseHint": "Presiona Enter para ocultar mi stack"
       }
+    },
+    "about": {
+      "title": "Sobre mí",
+      "subtitle": "Formación en ingeniería, desarrollo web y aprendizaje continuo.",
+      "description": {
+        "first": "Soy desarrollador de software con formación en Ingeniería en Sistemas Computacionales. Me enfoco en crear productos web claros, accesibles y mantenibles, combinando una base de ingeniería con atención a la experiencia de usuario y la calidad del código.",
+        "second": "Actualmente realizo mis residencias profesionales en Alebat Education, donde colaboro de forma remota en desarrollo frontend y continúo fortaleciendo mi perfil full-stack y cloud."
+      },
+      "education": {
+        "label": "Formación",
+        "title": "Ingeniería en Sistemas Computacionales",
+        "institution": "Instituto Tecnológico de Morelia",
+        "organization": "Tecnológico Nacional de México"
+      },
+      "experience": {
+        "label": "Experiencia actual",
+        "title": "Desarrollo frontend",
+        "company": "Alebat Education",
+        "type": "Residencia profesional · Modalidad remota",
+        "period": "Ago–dic 2026"
+      },
+      "github": {
+        "title": "Perfil de GitHub",
+        "source": "Datos vía GitHub API",
+        "bioLabel": "Bio de GitHub",
+        "bioFallback": "Perfil profesional y repositorios públicos en GitHub.",
+        "publicRepos": "Repositorios públicos",
+        "memberSince": "Miembro desde",
+        "viewProfile": "Ver perfil en GitHub",
+        "avatarAlt": "Avatar de GitHub de {name}",
+        "loading": "Cargando perfil de GitHub...",
+        "errorTitle": "No se pudo cargar GitHub",
+        "errorDescription": "La información no está disponible en este momento.",
+        "retry": "Reintentar"
+      },
+      "repositories": {
+        "description": "Mis repositorios públicos más recientes, obtenidos directamente desde GitHub.",
+        "viewRepository": "Ver repositorio",
+        "languageFallback": "Sin lenguaje principal",
+        "descriptionFallback": "Repositorio público disponible en GitHub.",
+        "empty": "No hay repositorios públicos disponibles."
+      }
     }
   },
   "navigation": {
