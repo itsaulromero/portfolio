@@ -83,6 +83,15 @@
         "descriptionFallback": "Public repository available on GitHub.",
         "empty": "No public repositories are available."
       }
+    },
+    "technologies": {
+      "title": "Technologies",
+      "description": "Technologies and tools I use to build web applications.",
+      "groups": {
+        "frontend": "Frontend technologies",
+        "backend": "Backend and databases",
+        "tools": "Development tools"
+      }
     }
   },
   "navigation": {
