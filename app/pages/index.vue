@@ -8,5 +8,8 @@ useSeoMeta({
 </script>
 
 <template>
-  <HomeHeroSection />
+  <div>
+    <HomeHeroSection />
+    <HomeAboutSection />
+  </div>
 </template>

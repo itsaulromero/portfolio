@@ -41,6 +41,48 @@
         "exploreCommand": "stack --list",
         "collapseHint": "Press Enter to hide my stack"
       }
+    },
+    "about": {
+      "title": "About me",
+      "subtitle": "Engineering education, web development, and continuous learning.",
+      "description": {
+        "first": "I am a software developer with a background in Computer Systems Engineering. I focus on creating clear, accessible, and maintainable web products, combining an engineering foundation with attention to user experience and code quality.",
+        "second": "I am currently completing my professional residency at Alebat Education, where I collaborate remotely on frontend development while continuing to strengthen my full-stack and cloud profile."
+      },
+      "education": {
+        "label": "Education",
+        "title": "Computer Systems Engineering",
+        "institution": "Instituto Tecnológico de Morelia",
+        "organization": "Tecnológico Nacional de México"
+      },
+      "experience": {
+        "label": "Current experience",
+        "title": "Frontend development",
+        "company": "Alebat Education",
+        "type": "Professional residency · Remote",
+        "period": "Aug–Dec 2026"
+      },
+      "github": {
+        "title": "GitHub profile",
+        "source": "Data from GitHub API",
+        "bioLabel": "GitHub bio",
+        "bioFallback": "Professional profile and public repositories on GitHub.",
+        "publicRepos": "Public repositories",
+        "memberSince": "Member since",
+        "viewProfile": "View GitHub profile",
+        "avatarAlt": "GitHub avatar of {name}",
+        "loading": "Loading GitHub profile...",
+        "errorTitle": "GitHub could not be loaded",
+        "errorDescription": "The information is currently unavailable.",
+        "retry": "Try again"
+      },
+      "repositories": {
+        "description": "My most recent public repositories, retrieved directly from GitHub.",
+        "viewRepository": "View repository",
+        "languageFallback": "No primary language",
+        "descriptionFallback": "Public repository available on GitHub.",
+        "empty": "No public repositories are available."
+      }
     }
   },
   "navigation": {
